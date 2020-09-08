@@ -1,0 +1,56 @@
+// const sum = (a, b) => a + b;
+
+// // console.log(sum(4, 4));
+
+// // //process.argv
+// // console.log("process.argv is ", process.argv);
+
+// // //[ path , path, 2  ]
+// // const input = process.argv[2];
+
+// // console.log("my input is ", input);
+
+// const inputOne = Number(process.argv[2]);
+// const inputTwo = Number(process.argv[3]);
+
+// console.log({ inputOne, inputTwo });
+
+// console.log("the sum is ", sum(inputOne, inputTwo));
+
+
+//core module
+// //import fs from "fs"
+// const fs = require("fs");
+
+// const path = process.argv[2];
+
+// console.log("1- Start Reading...........");
+
+// fs.readFile(path, "utf-8", (err, data) => {
+//   if (err) console.log(err);
+//   console.log("2- the result is \n", data);
+// });
+
+// console.log("3- Finish Reading");
+
+
+const myUsers = require("./contact");
+// //local modules 
+
+// const users = require("./contact");
+// const uf = require("./usersModule");
+
+// console.log(uf.findUserByName(users, "Jhon"));
+
+// console.log(uf.getAvreageAge(users));
+
+
+//third party module
+// const array = require("lodash/array");
+
+
+// const tab = [false, null, "Karim", "4", ""];
+// const res = array.compact(tab);
+// console.log(res);
+
+// console.log(tab);
